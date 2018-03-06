@@ -5,6 +5,7 @@ metadata:
   labels:
     app: wordpress
 spec:
+  replicas: 3
   ports:
     - port: 80
       nodePort: 30000
